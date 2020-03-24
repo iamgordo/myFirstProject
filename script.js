@@ -58,7 +58,7 @@ if(runner.enabled)console.log("running");
 
 World.add(engine.world, [
   // walls
-  Bodies.rectangle(400, 0, 800, 50, { isStatic: true }),
+  // Bodies.rectangle(400, 0, 800, 50, { isStatic: true }),
   Bodies.rectangle(400, 600, 800, 50, { isStatic: true }),
   Bodies.rectangle(800, 300, 50, 600, { isStatic: true }),
   Bodies.rectangle(0, 300, 50, 600, { isStatic: true })
